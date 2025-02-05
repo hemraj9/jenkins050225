@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('step-1') {
             steps {
-                echo 'hello, this is master branch'
+                echo 'hello, this is 23q1 branch'
             }
         }
     }
