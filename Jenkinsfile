@@ -1,16 +1,11 @@
 pipeline {
+    agent any
 
-agent any
-
-stage {
-    steps ("step-1") {
-
-        step {
-            echo "hello, this is master branch”
-
+    stages {
+        stage('step-1') {
+            steps {
+                echo 'hello, this is master branch'
+            }
         }
-
     }
-
-}
 }
